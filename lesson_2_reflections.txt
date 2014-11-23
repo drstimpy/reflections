@@ -2,3 +2,8 @@
 git will set up some files to store and track commits.
 However, it does not create commits yet
 You do this to set a starting point and a storage location for your project 
+
+>>How is the staging area different from the working directory and the repository? What value do you think it offers?
+is supposed to be a kind of in-between between wd and repo
+you can check what you are doing before committing
+
