@@ -1,0 +1,4 @@
+>>What happens when you initialize a repository? Why do you need to do it?
+git will set up some files to store and track commits.
+However, it does not create commits yet
+You do this to set a starting point and a storage location for your project 

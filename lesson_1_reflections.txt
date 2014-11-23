@@ -1,0 +1,32 @@
+>>How did viewing a diff between two versions of a file help you see the bug that was introduced?
+reduced the candidates for finding errors to the most likely ones (lines that were changed)
+easier to focus on the nature of the changes if not necessary to identify the changes themselves first
+
+>>How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+you don't have to be afraid of small changes destroying everything (just undo if they do)
+You can always reconstruct what you did and when
+no change, error or deletion would have to be permanent
+
+>>What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+pros:
+-no unnecessary/meaningless commits
+-stay able to reconstruct multiple different important changes even if they were commited within a short time
+cons:
+-no saving of history when you are to lazy, concentrated or forgetful to commit
+
+>>Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+probaly some systems do not assume that a change in one file may directly affect all other files
+for instance several files may be part of a collaborative project, but everybody works on a differetn file
+in that case you would want to be able to always track who changed what seperately
+if you only have software projects, it is more likely that several files have to be changed together, otherweise they would no function anymore at all
+in thoe cases it makes more sense to change all files at once, and track the changes in one step
+
+>>How can you use the commands git log and git diff to view the history of files?
+git log to identify the type of chenge of interest
+git diff to identify/understand the exact nature of the change
+
+>>How might using version control make you more confident to make changes that could break something?
+more confidence
+
+Now that you have your workspace set up, what do you want to try using Git for?
+programming bioinformatic tools
