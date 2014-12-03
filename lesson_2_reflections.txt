@@ -7,3 +7,21 @@ You do this to set a starting point and a storage location for your project
 is supposed to be a kind of in-between between wd and repo
 you can check what you are doing before committing
 
+>>How can you use the staging area to make sure you have one commit per logical change?
+by calling git diff --staging, you can find out what has changed since your last commit
+if you find many unrelated changes, split them up into seperate commits
+
+>>What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+helpful if thinking about adding experimental features that may even lead to a different function
+you can add a feature and improve it until it works.
+But when it doesn't work out completely, you can remove it without having to revert anything on the main branch (whch only has default features)
+
+>>How do the diagrams help you visualize the branch structure?
+they vizualize the branch structure
+
+>>What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+duh
+
+>>What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+it CAN remove a lot of effort in finding and combining different contributions to the code
+The systematic approach can also help to ensure that conflicts are recognized early and can be resolved
